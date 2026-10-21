@@ -24,7 +24,7 @@ M1 Setup & core functionality ─► M2 Additional features & delivery
 | US-11 Browse all places | Must |
 
 **Done when:**
-- after adding an API key to `.env`, one start command shows the map framed on the city of Zurich and creates the local database;
+- after adding an API key to `.env`, one start command shows the map framed on the city of Zurich (usable on desktop and mobile width) and creates the local database;
 - a place added and rated in one browser shows the correct score, band and marker in another browser after refresh;
 - recommendations and browse ordering match US-10 and US-11.
 
@@ -41,7 +41,7 @@ M1 Setup & core functionality ─► M2 Additional features & delivery
 | US-17 Search by name or address | Could (optional) |
 | US-18 Handover & documentation | Must |
 
-**Done when:** acceptance test in current desktop Chrome passes on a fresh local setup with the client's own keys, and source, schema and docs are handed over. Optional stories only count if they were built.
+**Done when:** acceptance test passes in current Chrome on desktop and on a mobile device (or Chrome mobile emulation) on a fresh local setup with the client's own keys, and source, schema and docs are handed over. Optional stories only count if they were built.
 
 ## If time gets tight
 1. Skip the optional search story (US-17) first, then defer **Should** stories (US-15, US-16) – only after agreement with the client.

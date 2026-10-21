@@ -6,7 +6,7 @@
 As a **student**, I want to see everything known about a place, so that I can decide whether to go there.
 
 ## Acceptance criteria
-- [ ] Side panel shows:
+- [ ] Details panel (side panel on desktop, bottom sheet / full-screen panel on mobile – see US-03) shows:
 
 | Section | Content |
 |---|---|
