@@ -1,0 +1,2 @@
+# coolspot-zurich
+CoolSpot Zurich
